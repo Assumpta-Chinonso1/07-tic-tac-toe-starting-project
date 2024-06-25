@@ -370,3 +370,50 @@ ol {
     transform: scale(1);
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #game-container {
+    max-width: 90%;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+
+  #players li {
+    flex: 0 1 100%; /* Full width for players on smaller screens */
+  }
+
+  #players button {
+    width: auto; /* Allow button width to adjust */
+  }
+
+  .player-name,
+  .player input {
+    width: 100%;
+  }
+
+  #game-board button {
+    width: 6rem;
+    height: 6rem;
+    font-size: 4rem;
+  }
+
+  #log {
+    max-width: 100%;
+    height: 50vh;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
